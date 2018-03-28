@@ -52,7 +52,7 @@
   },
   "release": {
     "branch": "master",
-    "repositoryUrl": "https://github.com/@labsoft/common-labsoft-js",
+    "repositoryUrl": "https://github.com/labsoft-2018/common-labsoft-js",
     "verifyConditions": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
@@ -76,7 +76,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/@labsoft/common-labsoft-js.git"
+    "url": "https://github.com/labsoft-2018/common-labsoft-js.git"
   },
   "dependencies": {
     "@thunder-js/toposort": "^1.0.1",
