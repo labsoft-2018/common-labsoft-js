@@ -1,5 +1,5 @@
 {
-  "name": "@labsoft/common-labsoft-js",
+  "name": "@labsoft/common-js",
   "version": "1.2.1",
   "main": "dist/index",
   "typings": "dist/index",
@@ -61,7 +61,10 @@
     ],
     "publish": [
       "@semantic-release/changelog",
-      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/npm",
+        "pkgRoot": "dist"
+      },
       {
         "path": "@semantic-release/git",
         "assets": [
